@@ -1,8 +1,6 @@
 import requests
 
 def text_to_voice(text, output_path="output.wav"):
-
-    # 改成你本地的地址啦，哥哥说是 127.0.0.1:9880
     url = "http://127.0.0.1:9880"
 
     payload = {
@@ -16,6 +14,6 @@ def text_to_voice(text, output_path="output.wav"):
             with open(output_path, 'wb') as f:
                 f.write(response.content)
         else:
-            print(f"(请求失败啦，状态码是 {response.status_code}，内容是 {response.text}")
+            print(f"(请求失败，状态码是 {response.status_code}，内容是 {response.text}")
     except Exception as e:
         print(f"(撞到墙了……错误是：{e}")
