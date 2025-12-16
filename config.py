@@ -1,7 +1,7 @@
-DEEPSEEK_API_KEY = "sk-5f3dae86fc9c42efb3b3e758d7d31ce9"
+DEEPSEEK_API_KEY = "yourkey"
 BAIDU_APP_ID = "119328523"
-BAIDU_API_KEY = "jwBYTHC6gV8mLV0hnbUI4ORM"
-BAIDU_SECRET_KEY = "EhHFIMNNBI1J77MSIYv6gNxwAjQWFOsy"
+BAIDU_API_KEY = "yourkey"
+BAIDU_SECRET_KEY = "yourkey"
 BAIDU_TOKEN_URL = "https://aip.baidubce.com/oauth/2.0/token"
 BAIDU_ASR_URL = " https://vop.baidu.com/pro_api"
 
